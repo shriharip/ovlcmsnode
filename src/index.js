@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const neo4j = require("neo4j-driver");
-require("dotenv").config();
+// require("dotenv").config();
 const URI = process.env.URI;
 const USER = "neo4j";
 const PASSWORD = process.env.PASS;
